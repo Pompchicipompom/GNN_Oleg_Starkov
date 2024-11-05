@@ -13,4 +13,4 @@ Restrictions: Implement a model for missing data imputation using GNN, that can 
 Data: Time-series data, well logs data
 Data sources: Groningen, Volve, New Zealand – well logs; 
 US Produced Waters Geochemicals – time series
-Tags: data imputation, GNNs, time series!"
+Tags: data imputation, GNNs, time series!!"
