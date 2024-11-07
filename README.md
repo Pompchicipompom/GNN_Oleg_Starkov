@@ -14,3 +14,4 @@ Data: Time-series data, well logs data
 Data sources: Groningen, Volve, New Zealand – well logs; 
 US Produced Waters Geochemicals – time series
 Tags: data imputation, GNNs, time series!!"
+Date used: taranaki-basin-curated-well-logs (New Zealand)
