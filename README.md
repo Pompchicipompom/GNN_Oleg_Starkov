@@ -11,7 +11,7 @@ To achieve the research goal, the following steps need to be taken:
 
 Restrictions: Implement a model for missing data imputation using GNN, that can outperform other imputation baselines.
 Data: Time-series data, well logs data
-Data sources: Groningen, Volve, New Zealand – well logs; 
+Data sources:taranaki-basin-curated-well-logs (New Zealand) – well logs; 
 US Produced Waters Geochemicals – time series
 Tags: data imputation, GNNs, time series!!"
-Date used: taranaki-basin-curated-well-logs (New Zealand)
+
