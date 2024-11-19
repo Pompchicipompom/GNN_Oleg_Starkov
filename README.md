@@ -1,17 +1,57 @@
-# GNN_Oleg_Starkov
-Missing Values Imputation with Graph Neural Networks in Oil&Gas datasets
-"Imputation of missing values in data is a critical task in numerous real-world applications. Traditional methods such as mean interpolation, spline interpolation, and regression models are commonly used to address this problem. However, these approaches often fail to capture the complex spatial and temporal dependencies and non-linear relationships present in complex datasets.
-The emergence of graph neural networks (GNNs) represents a promising solution, as GNNs are capable of capturing complex spatio-temporal dependencies in data. The purpose of this work is to investigate the capabilities of GNNs to both fill missing values in an existing data sequence and in separate, unrelated sequences.
-The results of the work will be useful in training different ML models in the petroleum industry (starting from wells classification and moving to time series forecasting and drilling anomalies detection).
-To achieve the research goal, the following steps need to be taken:
-•        Explore available implementations of GNNs for missing value imputation
-•        Prepare data to work with GNNs. This includes constructing graphs of relationships between wells (or between drilling parameters) and preprocessing tabular or temporal data.
-•        Develop a model to fill in missing values using GNNs and select metrics to evaluate the effectiveness of the model.
-•        Compare the obtained results with classical methods (forward/backward fill, KNN, non-negative matrix factorization, etc.) of gap filling and draw conclusions.
+# Missing Values Imputation with Graph Neural Networks in Oil & Gas Datasets
 
-Restrictions: Implement a model for missing data imputation using GNN, that can outperform other imputation baselines.
-Data: Time-series data, well logs data
-Data sources:taranaki-basin-curated-well-logs (New Zealand) – well logs; 
-US Produced Waters Geochemicals – time series
-Tags: data imputation, GNNs, time series!!"
+## Overview
 
+Imputation of missing values in data is a critical task in numerous real-world applications. Traditional methods such as mean interpolation, spline interpolation, and regression models are commonly used to address this problem. However, these approaches often fail to capture the complex spatial and temporal dependencies and non-linear relationships present in complex datasets. The emergence of graph neural networks (GNNs) represents a promising solution, as GNNs are capable of capturing complex spatio-temporal dependencies in data.
+
+This repository focuses on leveraging GNNs for imputation tasks in the Oil & Gas industry, particularly for filling missing values in well logs and time-series data. The results of this work aim to improve the training of various machine learning models in the petroleum industry, including but not limited to well classification, time series forecasting, and drilling anomaly detection.
+
+## Objectives
+
+The primary objectives of this project are as follows:
+- Explore available implementations of GNNs for missing value imputation.
+- Prepare data for use with GNNs, including:
+  - Constructing graphs that represent relationships between wells or between drilling parameters.
+  - Preprocessing tabular and temporal data.
+- Develop a GNN-based model to fill missing values and select appropriate evaluation metrics.
+- Compare the performance of the GNN-based approach against classical imputation methods (e.g., forward/backward fill, KNN, non-negative matrix factorization).
+- Provide a thorough analysis of the results and draw conclusions on the effectiveness of the GNN model.
+
+## Restrictions
+
+The project aims to implement a GNN model for missing data imputation that outperforms other baseline imputation methods.
+
+## Data Sources
+
+The project utilizes data from the following sources:
+- [Taranaki Basin Curated Well Logs (New Zealand)](https://example-link) – Well logs data.
+- [US Produced Waters Geochemicals](https://example-link) – Time series data.
+
+## Tags
+
+- Data Imputation
+- Graph Neural Networks (GNNs)
+- Time Series Analysis
+- Oil & Gas Data
+- Machine Learning
+
+## Structure
+
+- **Data Preparation**: Scripts for loading, preprocessing, and constructing graphs from the raw datasets.
+- **Model Development**: Implementation of the GNN model for missing value imputation.
+- **Evaluation**: Comparison with classical imputation methods and analysis of results.
+- **Documentation**: Detailed explanations, tutorials, and findings.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Required libraries (listed in `requirements.txt`)
+
+### Installation
+
+```bash
+git clone https://github.com/username/repository-name.git
+cd repository-name
+pip install -r requirements.txt
