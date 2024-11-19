@@ -24,14 +24,12 @@ The project aims to implement a GNN model for missing data imputation that outpe
 ## Data Sources
 
 The project utilizes data from the following sources:
-- [Taranaki Basin Curated Well Logs (New Zealand)](https://example-link) – Well logs data.
-- [US Produced Waters Geochemicals](https://example-link) – Time series data.
+- [Taranaki Basin Curated Well Logs (New Zealand)](https://developer.ibm.com/exchanges/data/all/taranaki-basin-curated-well-logs/) – Well logs data.
 
 ## Tags
 
 - Data Imputation
 - Graph Neural Networks (GNNs)
-- Time Series Analysis
 - Oil & Gas Data
 - Machine Learning
 
@@ -41,17 +39,3 @@ The project utilizes data from the following sources:
 - **Model Development**: Implementation of the GNN model for missing value imputation.
 - **Evaluation**: Comparison with classical imputation methods and analysis of results.
 - **Documentation**: Detailed explanations, tutorials, and findings.
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-- Required libraries (listed in `requirements.txt`)
-
-### Installation
-
-```bash
-git clone https://github.com/username/repository-name.git
-cd repository-name
-pip install -r requirements.txt
