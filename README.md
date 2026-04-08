@@ -1,6 +1,6 @@
-# 🌐 Missing Values Imputation with Graph Neural Networks in Oil & Gas Datasets
+# Missing Values Imputation with Graph Neural Networks in Oil & Gas Datasets
 
-### 📜 **Overview**
+###  **Overview**
 
 Imputing missing values is a critical step in data preprocessing across numerous real-world applications. Traditional methods—such as mean interpolation, spline interpolation, and regression models—struggle to capture **complex spatial and temporal dependencies** and **non-linear relationships** in datasets. 
 
@@ -11,7 +11,7 @@ Imputing missing values is a critical step in data preprocessing across numerous
 
 ---
 
-### 🎯 **Objectives**
+###  **Objectives**
 
 The main goals of this project are:
 1. **Explore and benchmark implementations of GNNs** for missing value imputation.
@@ -29,23 +29,23 @@ The main goals of this project are:
 
 ---
 
-### 🛠️ **Project Features**
+###  **Project Features**
 
-- 📊 **Dataset Preparation**:
+-  **Dataset Preparation**:
   - Create meaningful relationships between **wells** using spatial, temporal, and parametric data.
   - Implement feature engineering to enrich input data for GNN models.
 
-- 🧠 **Model Development**:
+- **Model Development**:
   - Design and train Graph Neural Networks for missing value imputation.
   - Implement multiple GNN architectures, such as **GCN**, **GraphSAGE**, and **GAT**.
 
-- ⚡ **Performance Comparison**:
+-  **Performance Comparison**:
   - Evaluate GNNs against classical imputation methods to demonstrate their superiority.
   - Utilize **custom metrics** to measure the effectiveness of imputation techniques.
 
 ---
 
-### 📚 **Data Sources**
+###  **Data Sources**
 
 This project utilizes data from the following source:
 
